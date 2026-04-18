@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+}
+.linear-gradient{
+    background: linear-gradient(to right, #9b27b0, #2196f3);
+}

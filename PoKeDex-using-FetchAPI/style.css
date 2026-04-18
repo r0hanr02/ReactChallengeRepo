@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url("/PoKeDex-using-FetchAPI/img/728240.webp");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    width: 50%;
+    background-color: #ee1515;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius:20px;
+    border: 2px solid white;
+}
+#upperDetils{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius:5px;
+}
+#heading{
+    color: white;
+}
+#pokemonName{
+    width: 70%;
+    padding:10px;
+    font-size:1.1rem ;
+    border: 2px solid white;
+    border-radius:30px;
+}
+#btn{
+    padding:15px;
+    width: 30%;
+    color: rgb(253, 253, 87);
+    background-color: #f00000;
+    border: 2px solid white;
+    border-radius:30px;
+}
+#btn:hover{
+    transition: 1s;
+    transform: translateY(5%);
+    background-color: white;
+    color: rgb(0, 0, 0) ;
+    border: 2px solid white;
+    border: 2px solid black;
+}
+#lowerOutput{
+    color: aliceblue;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius:5px;
+}
+#lowerOutput span{
+    padding: 5px;
+    transition: 0.5s;
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    #container{
+        width: 80%;
+        background-color: #ee1515;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    #container{
+        width: 80%;
+        background-color: #ee1515;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    #container{
+        width: 80%;
+        background-color: #ee1515;
+    }
+}
